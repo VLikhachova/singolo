@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Lato";
+    src: url(assets/fonts/lato-regular-webfont.woff2);
+}
+@font-face {
+    font-family: "Lato";
+    src: url(assets/fonts/Lato-Regular.ttf);
+}
+html {
+    font-size: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    font-family: "Lato";
+}
+.container {
+    width: 1020px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+a {
+    text-decoration: none;
+    overflow: hidden;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+.portfolio {
+    font-family: "Lato";
+    color: #666d89;
+}
+.portfolio-styles {
+    background-color: #2d303a;
+    border-bottom: 7px solid #323746;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 56px;
+}
+.portfolio h2 {
+    font-size: 3.1rem;
+    padding-bottom: 22px;
+}
+.portfolio span {
+    font-size: 1.8rem;
+}
+.layout-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 9px;
+    margin-left: -8px;
+    margin-right: -9px;
+}
+.portfolio-item {
+    padding: 9px;
+}
+.p13 {
+    padding-right: 13px;
+}
+.sort {
+    padding-top: 16px;
+    font-size: 1.2rem;
+    width: 31%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sort-item {
+    margin: 0 3px 0 0px;
+    padding: 2px 5px 4px 8px;
+    border: 1px solid #666d89;
+    border-radius: 5px;
+    width: max-content;
+}
+.about-us {
+    font-family: "Lato";
+}
+.about-us-styles {
+    background-color: #f2f2f2;
+    color: #666d89;
+    padding-top: 56px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 64px;
+    border-bottom: 7px solid #ffffff;
+}
+.about-us h2 {
+    font-size: 3.3rem;
+    padding-bottom: 17px;
+}
+.about-us span {
+    line-height: 3.1rem;
+    font-size: 1.9rem;
+    letter-spacing: -0.9px;
+}
+.layout-3 {
+    display: flex;
+    padding-top: 43px;
+    justify-content: space-between;
+}
+.team {
+    width: 300px;
+}
+.description {
+    padding-top: 13px;
+}
+.description h3 {
+    font-size: 1.9rem;
+    padding-bottom: 7px;
+}
+.description span {
+    line-height: 2.3rem;
+    font-size: 1.2rem;
+}
+.contacts {
+    margin-top: 23px;
+}
+.social {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    /* padding-right: 8px; */
+    padding-left: 9px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding-top: 9px;
+    margin-left: 3px;
+}
